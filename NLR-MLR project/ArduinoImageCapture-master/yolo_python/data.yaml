@@ -1,0 +1,26 @@
+train: train/images
+val: valid/images
+test: test/images
+nc: 14
+names:
+- Artefato
+- Basofilo
+- Bastonete
+- Blasto
+- Eosinofilo
+- Eritroblasto
+- Linfocito
+- Linfocito atipico
+- Metamielocito
+- Mielocito
+- Monocito
+- Neutrofilo segmentado
+- Promielocito
+- Restos celulares
+roboflow:
+  workspace: annotation-ranuk
+  project: visao_computacional
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/annotation-ranuk/visao_computacional/dataset/10
+path: C:\Users\janit\Downloads\dataset-yolo\dataset-yolo
